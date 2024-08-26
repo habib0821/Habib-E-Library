@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #C6B89E;
+}
+
+.mainPage {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mainPage .title {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.mainPage .add input {
+    padding: 0.5rem 5rem;
+    font-size: 1.5rem;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+}
+
+.mainPage .add .addBtn {
+    padding: 0.5rem 5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #C6B89E;
+    background-color: black;
+    margin-left: 0.5rem;
+}
+
+.mainPage .bookLists {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPage .bookList {
+    width: 60%;
+    border-top: 5px solid black;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.mainPage .bookList  li{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+.mainPage .bookList  li h3{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.book{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    align-items: start;
+}
+.borrowBook{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+}
+span{
+    font-size: 1rem;
+    font-weight: 500;
+}
