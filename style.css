@@ -69,16 +69,22 @@ html {
      font-size: 1.5rem;
      font-weight: bold;
 }
-.mainPage .bookList  li h3{
+.mainPage .bookList .Default{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+.mainPage .bookList .Default h3{
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
-.book{
-    font-size: 1.5rem;
-    background-color: transparent;
-    border: none;
-    align-items: start;
+.mainPage .bookList  li h3{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 .borrowBook{
     font-size: 1.5rem;
@@ -87,5 +93,9 @@ html {
 }
 span{
     font-size: 1rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 10px;
     font-weight: 500;
+    background-color: black;
+    color: #C6B89E;
 }
